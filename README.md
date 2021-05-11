@@ -7,7 +7,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -24,12 +23,10 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop
 ![](./screenshot-desktop.png)
+#### Mobile
 ![](./screenshot-mobile.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 
 ## My process
 
@@ -40,7 +37,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned about the use of ```html <divs></divs> ``` to divide parts of the website and how to organize them neatly, and also learned how to create different css styles depending on the device's screen size.
+I learned about the use of ```<divs></divs> ``` to divide parts of the website and how to organize them neatly, and also learned how to create different css styles depending on the device's screen size.
 
 A new CSS syntax I learned:
 ```css
