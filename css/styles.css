@@ -1,0 +1,135 @@
+/********** Tag Style **********/
+.highlight-text {
+    color: hsl(277, 64%, 61%);
+    display: inline-block;
+}
+
+/********** Mobile Class Style **********/
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #f8f8ff;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+    color: #f8f8ff;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #f8f8ff;
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+
+.main-container {
+    position: relative;
+    display: inline-block;
+    background-color: hsl(244, 38%, 16%);
+    width: 77%;
+    margin: 8% auto 8% auto;
+    border-radius: 10px;
+}
+
+.content {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.image-header-mobile {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.overlay {
+    height: 203px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: hsla(277, 64%, 61%, 0.5);
+    border-radius: 10px 10px 0 0;
+}
+
+.image-header-desktop {
+    display: none;
+}
+
+.stats {
+    line-height: 0.5;
+    display: inline;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+/********** Desktop Class Style **********/
+@media only screen and (min-width: 1440px) {
+    body {
+        background-color: hsl(233, 47%, 7%);
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        color: #f8f8ff;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+        color: #f8f8ff;
+    }
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        color: #f8f8ff;
+        text-align: left;
+    }
+
+    .main-container {
+        position: relative;
+        display: inline-block;
+        background-color: hsl(244, 38%, 16%);
+        width: 77%;
+        margin: 8% auto 8% auto;
+        border-radius: 10px;
+    }
+
+    .content {
+        width: 35%;
+        text-align: left;
+        margin: 90px 60px 50px 60px;
+    }
+
+    .overlay {
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        background-color: hsla(277, 64%, 61%, 0.5);
+        border-radius: 0 10px 10px 0;
+    }
+
+    .image-header-desktop {
+        display: block;
+        height: 100%;
+        width: 50%;
+        float: right;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .image-header-mobile {
+        display: none;
+    }
+
+    .stats {
+        line-height: 0.5;
+        display: inline-block;
+        margin: 40px 40px 0 0;
+        font-weight: lighter;
+    }
+}
